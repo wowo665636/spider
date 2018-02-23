@@ -1,0 +1,33 @@
+#!/usr/bin/python
+#coding=utf-8
+import requests
+import json
+def authenticate():
+    """
+    authenticate user
+    :return: session
+    """
+    url = 'http://10.16.39.181:7070/kylin/api/user/authentication'
+    headers = {'Authorization': 'Basic QURNSU46S1lMSU4='}
+    s = requests.session()
+    s.headers.update({'Content-Type': 'application/json'})
+    s.post(url, headers=headers)
+    return s
+def query(sql_str, session):
+    """
+    sql query
+    :param sql_str: string of sql
+    :param session: session object
+    :return: results(type is list)
+    """
+    url = 'http://10.16.39.181:7070/kylin/api/query'
+    json_str = '{"sql":"' + sql_str + '", "offset": 0, "limit": 10, ' \
+                                      '"acceptPartial": false, "project": "tv_kylin_finance"}'
+    r = session.post(url, data=json_str)
+    results = r.json()
+    return results
+
+if __name__ == '__main__':
+    session = authenticate()
+    result=query("SELECT sum(a.COMMERCIAL_OCCU),sum(a.INCOME)  FROM (SELECT  ALBUM_NAME,TV_CATEGORY_NAME ,TV_AREA_NAME,P2_NAME,DT2 ,COMMERCIAL_OCCU,INCOME FROM BD_WAREHOUSE.KYLIN_VIEW_TVAD_SUMMARY_ALBUM_WT as t WHERE t.DT2 >= DATE '2017-10-01' and  t.DT2 < DATE '2017-11-01' ) as a  group by a.ALBUM_NAME,a.TV_CATEGORY_NAME ,a.TV_AREA_NAME,a.P2_NAME,a.DT2 ",session)
+    print json.dumps(result,encoding="UTF-8", ensure_ascii=False)
