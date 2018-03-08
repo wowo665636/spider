@@ -7,16 +7,23 @@ import json
 import datetime
 
 def redis_cluster():
-    redis_nodes = [{'host':'10.16.13.53','port':9000},
-                   {'host':'10.16.13.53','port':9001},
-                   {'host':'10.16.13.54','port':9000},
-                   {'host':'10.16.13.54','port':9001}
-                  ]
-    # redis_nodes = [{'host':'10.18.38.41','port':9000},
-    #                 {'host':'10.18.38.41','port':9001},
-    #                 {'host':'10.18.38.42','port':9000},
-    #                 {'host':'10.18.38.42','port':9001}
-    #                 ]
+    redis_nodes = [{'host':'10.16.13.53','port':8000},
+                   {'host':'10.16.13.53','port':8001},
+                   {'host':'10.16.13.53','port':8002},
+                   {'host':'10.16.13.53','port':8003},
+                   {'host':'10.16.13.53','port':8004},
+                   {'host':'10.16.13.53','port':8005},
+                   {'host':'10.16.13.53','port':8006},
+                   {'host':'10.16.13.53','port':8007},
+                   {'host':'10.16.13.54','port':8000},
+                   {'host':'10.16.13.54','port':8001},
+                   {'host':'10.16.13.54','port':8002},
+                   {'host':'10.16.13.54','port':8003},
+                   {'host':'10.16.13.54','port':8004},
+                   {'host':'10.16.13.54','port':8005},
+                   {'host':'10.16.13.54','port':8006},
+                   {'host':'10.16.13.54','port':8007}
+                   ]
     try:
         redisconn = StrictRedisCluster(startup_nodes = redis_nodes,password='Ef4bE3H')
         return redisconn
@@ -76,7 +83,7 @@ def sum_day(hkey,day,include):
     time_format = now.strftime("%Y%m%d%H")
     curr_hour=int(time_format[8:10])
     sum_val=0
-    while ((curr_hour-1) !=0):
+    while (curr_hour>-1):
         if curr_hour<10:
             search_time='0'+str(curr_hour)
         else:
@@ -93,68 +100,24 @@ def sum_day(hkey,day,include):
 
 if __name__ == '__main__':
 #    date = sys.argv[1]
-    date='20180227'
-    sum_0=sum_day('bi_trend_consume_',date,'accounttype=0&appid=newssdk&')
-    sum_1 = sum_day('bi_trend_consume_',date,'accounttype=1&appid=newssdk&')
+    date='20180307'
+    # redisconn = redis_cluster()
+    # print redisconn.hgetall('bi_trend_v_2018030713')
+    sum_0=sum_day('bi_trend_consume_',date,'')
 
-    print "---合计:"+str(sum_0+sum_1)
+    print "---合计:"+str(sum_0)
 
+    sum_1=sum_day('bi_trend_av_',date,'')
+    print "---合计:"+str(sum_1)
 
-    #redisconn = redis_cluster()
-   # print redisconn.hgetall("bi_trend_v_2018022715")
-    # redisconn = redis_cluster2()
+    sum_2=sum_day('bi_trend_v_',date,'')
+    print "---合计:"+str(sum_2)
 
-    # sum_key("bi_trend_v_"+date)
-    #
-    # consume_dict_new= redisconn1.hgetall("bi_trend_consume_"+date)
-    # sum_v_new=0
-    # for key in consume_dict_new:
-    #     if string.find(key,'accounttype=1') !=-1:
-    #         value = int(consume_dict_new[key])
-    #         sum_v_new +=value
-    #
-    # sum_v_0=0
-    # sum_v_1=0
-    # sum_v_other=0;
-    # v_dict_new=redisconn1.hgetall("bi_trend_v_"+date)
-    # for key in v_dict_new:
-    #     if string.find(key,'accounttype=0') !=-1:
-    #         value =int(v_dict_new[key])
-    #         sum_v_0+=value
-    #     if string.find(key,'accounttype=0') ==-1 and  string.find(key,'accounttype=1')==-1:
-    #         value =int(v_dict_new[key])
-    #         sum_v_other+=value
-    #     if string.find(key,'accounttype=1') !=-1:
-    #         value =int(v_dict_new[key])
-    #         sum_v_1+=value
-    # print '长尾v:', '{:,}'.format(sum_v_1),'  AE:', '{:,}'.format(sum_v_0),'  其他:','{:,}'.format(sum_v_other)
-    #
-    # sum_key("bi_trend_av_"+date)
-    # sum_key("bi_trend_c_"+date)
-    # print "bi_trend_consume_"+date,":","{:,}".format(sum_v_new/100000)
-    # na1 = redisconn1.hget("bi_trend_na_"+date,date[8:10])
-    # print "na:","{:,}".format(int(na1))
-    #
-    # print "-------------------------"
-    # v1 = redisconn.hget("bi_sstics_v_all_"+date[0:8],date[8:10])
-    # print "v","{:,}".format(int(v1))
-    # av1 = redisconn.hget("bi_sstics_av_all_"+date[0:8],date[8:10])
-    # print "av","{:,}".format(int(av1))
-    # c1 = redisconn.hget("bi_sstics_c_all_"+date[0:8],date[8:10])
-    # print "c","{:,}".format(int(c1))
-    # na2=redisconn.hget("bi_sstics_v_empty_"+date[0:8],date[8:10])
-    #
-    # consume_dict= redisconn.hgetall("bi_sstics_surplus_consume_"+date[0:8])
-    #
-    # sum_v1=0
-    # for key in consume_dict:
-    #     if string.find(key,date[8:10]) !=-1:
-    #         value = int(consume_dict[key])
-    #         sum_v1 +=value
-    #
-    # print "consume:","{:,}".format(sum_v1/100000)
-    # print "na:","{:,}".format(int(na2))
+    sum_3=sum_day('bi_trend_c_',date,'')
+    print "---合计:"+str(sum_3)
 
+    sum_4=sum_day('bi_trend_na_',date,'')
+    print "---合计:"+str(sum_4)
 
 
 

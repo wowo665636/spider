@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #coding=utf-8
 from rediscluster import StrictRedisCluster
-import sys
+
 import string
 import json
 import datetime
@@ -17,18 +17,30 @@ def redis_cluster():
                    {'host':'10.16.13.53','port':8001},
                    {'host':'10.16.13.53','port':8002},
                    {'host':'10.16.13.53','port':8003},
+                   {'host':'10.16.13.53','port':8004},
+                   {'host':'10.16.13.53','port':8005},
+                   {'host':'10.16.13.53','port':8006},
+                   {'host':'10.16.13.53','port':8007},
                    {'host':'10.16.13.54','port':8000},
                    {'host':'10.16.13.54','port':8001},
                    {'host':'10.16.13.54','port':8002},
-                   {'host':'10.16.13.54','port':8003}
+                   {'host':'10.16.13.54','port':8003},
+                   {'host':'10.16.13.54','port':8004},
+                   {'host':'10.16.13.54','port':8005},
+                   {'host':'10.16.13.54','port':8006},
+                   {'host':'10.16.13.54','port':8007}
                    ]
+
+
+
+
 
     try:
         redisconn = StrictRedisCluster(startup_nodes = redis_nodes,password='Ef4bE3H')
         return redisconn
     except Exception,e:
         print "connect error"
-        sys.exit(1)
+
 
 
 def sum_hour(hkey,day,include):
