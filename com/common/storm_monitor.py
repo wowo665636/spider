@@ -100,24 +100,28 @@ def sum_day(hkey,day,include):
 
 if __name__ == '__main__':
 #    date = sys.argv[1]
-    date='20180307'
-    # redisconn = redis_cluster()
-    # print redisconn.hgetall('bi_trend_v_2018030713')
-    sum_0=sum_day('bi_trend_consume_',date,'')
+    date='20180308'
+    redisconn = redis_cluster()
+    print redisconn.hgetall('magic_test')
 
-    print "---合计:"+str(sum_0)
+    # sum_day_key
+    # sum_0=sum_day('bi_trend_consume_',date,'')
+    #
+    # print "---合计:"+str(sum_0)
+    #
+    # sum_1=sum_day('bi_trend_av_',date,'')
+    # print "---合计:"+str(sum_1)
 
-    sum_1=sum_day('bi_trend_av_',date,'')
-    print "---合计:"+str(sum_1)
 
-    sum_2=sum_day('bi_trend_v_',date,'')
-    print "---合计:"+str(sum_2)
 
-    sum_3=sum_day('bi_trend_c_',date,'')
-    print "---合计:"+str(sum_3)
-
-    sum_4=sum_day('bi_trend_na_',date,'')
-    print "---合计:"+str(sum_4)
+    # sum_2=sum_day('bi_trend_v_',date,'')
+    # print "---合计:"+str(sum_2)
+    #
+    # sum_3=sum_day('bi_trend_c_',date,'')
+    # print "---合计:"+str(sum_3)
+    #
+    # sum_4=sum_day('bi_trend_na_',date,'')
+    # print "---合计:"+str(sum_4)
 
 
 

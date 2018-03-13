@@ -6,16 +6,9 @@ import string
 import json
 
 def redis_cluster():
-    # redis_nodes = [{'host':'10.16.13.53','port':9000},
-    #                {'host':'10.16.13.53','port':9001},
-    #                {'host':'10.16.13.54','port':9000},
-    #                {'host':'10.16.13.54','port':9001}
-    #               ]
-    redis_nodes = [{'host':'10.18.38.41','port':9000},
-                    {'host':'10.18.38.41','port':9001},
-                    {'host':'10.18.38.42','port':9000},
-                    {'host':'10.18.38.42','port':9001}
-                    ]
+    redis_nodes = [{'host':'10.16.13.53','port':9000},
+                   {'host':'10.16.13.54','port':9000}
+                  ]
     try:
         redisconn = StrictRedisCluster(startup_nodes = redis_nodes,password='Ef4bE3H')
         return redisconn
@@ -26,20 +19,39 @@ def redis_cluster():
 
     #redisconn.set('name','kk')
 
+def sum_day_key(hkey,include):
+    redisconn = redis_cluster()
+    dict = redisconn.hgetall(hkey)
+    sum=0
+    for key in dict:
+        value = 0
+        if include !="":
+            if string.find(key,include)!=-1:
+                value = int(dict[key])
+        else:
+            value = int(dict[key])
+
+        sum +=value
+    print hkey,":","{:,}".format(sum)
+    return sum
 
 if __name__ == '__main__':
     redisconn =  redis_cluster()
-    redisconn.hset('mm','',1)
-    print redisconn.hget('mm','')
+    #redisconn.hgetall("bi_consume_amount_")
     #date = sys.argv[1]
     # c_id_dict =  redisconn.hgetall('bi_c_id_2018010518')
     # for key in c_id_dict:
     #     if string.find(key,'aid') ==-1:
     #         redisconn.rename('bi_c_id_2018010518',)
-    #
     #         print key
-    #print redisconn.hgetall('bi_consume_amount_2018012208')
-   # print redisconn.hgetall('bi_imp_amount_2018012208')
+    hours=['00','01','02','03','04','05','06','07','08','09','10','11','12','13']
+    for hour in hours:
+        print sum_day_key('bi_consume_amount_20180313'+hour,'aid=10013301')
+
+
+
+    #print redisconn.hgetall('bi_consume_amount_2018031312')
+    #print redisconn.hgetall('bi_imp_amount_2018012208')
     #print redisconn.hgetall('bi_c_id_2018012208')
 
    # print redisconn.lrange('bi_consume_stream',0,-1)
