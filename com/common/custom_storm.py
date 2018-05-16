@@ -82,27 +82,38 @@ def sum_day(hkey,day,include):
     return sum_val
 
 
+def sum_day(hkey,day,include):
+    redisconn = redis_cluster()
+    dict = redisconn.hgetall(hkey+day)
+    sum=0
+    for key in dict:
+        value = 0
+        if include !="":
+            if string.find(key,include)!=-1:
+                value = int(dict[key])
+        else:
+            value = int(dict[key])
+
+        sum +=value
+    print hkey+day,":","{:,}".format(sum)
+    return sum
+
 
 
 if __name__ == '__main__':
 #    date = sys.argv[1]
     date='20180322'
     redisconn = redis_cluster()
-    #redisconn.set("exp_test",1)
-    #redisconn.expireat("exp_test",1523176820)
-    # print redisconn.ttl("exp_test")
-    # print redisconn.get("exp_test")
     prefix = 'bi_custom_'
-
+   # print redisconn.get('sql_rule_search')
     #serch 统计联盟空广告
     #redisconn.set('sql_rule_search','select count(1) from xpssearch where appid in ("union","wapunion") group by appid,adslotid,developerid,unionappid')
     #sum_key('bi_search_na_2018040316')
-    # 宽表过滤规则 bi_custom_rule
-    # redisconn.hset('bi_custom_rule','sql_fact','select ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp from xpstrackingcharge where ett in ("na","v","av","click")   group by ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,developerid,unionappid')
-    # print redisconn.hget('bi_custom_rule','sql_fact')
+    # 宽表过滤规则 bi_custom_rule----------
+    #redisconn.hset('bi_custom_rule','sql_fact','select ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,os_rename,appv,vplat,tvpid,vc,ac from xpstrackingcharge where ett in ("na","v","av","click","naa")   group by ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,developerid,unionappid,os_rename,appv,vplat,tvpid,vc,ac')
+    #print redisconn.hget('bi_custom_rule','sql_fact')
 
     # 分维度计算
-    #print redisconn.hgetall('bi_dim_rule')
     #print redisconn.hset('bi_dim_rule','union','select appid,adslotid,developerid,unionappid,sum(charge),sum(v),sum(click),sum(av) from xpstrackingcharge where ett in ("na","v","av","click") and appid in ("union","wapunion") group by appid,adslotid,developerid,unionappid')
     # dau sql 模板
     # redisconn.set('bi_custom_count_uv','select sum(uv) from xpstrackingcharge where appid in ("news","newssdk") group by appid,os_rename,adslotid,appv')
@@ -111,10 +122,17 @@ if __name__ == '__main__':
     # print redisconn.hgetall('bi_custom_count_uv_'+'cid_'+'20180408')
     #
     # print redisconn.hlen('bi_custom_count_uv_'+'idfa_'+'20180408')
-    print redisconn.hgetall('t_dwd_alliance_spam_count')
-    #print redisconn.hgetall(prefix+'union'+'_v_2018040817')
-    # print redisconn.hlen(prefix+'sql_rule_appid'+'_v_2018040210')
-   # print redisconn.hgetall(prefix+'union'+'_v_2018040211')
+    #print redisconn.hget('t_dwd_alliance_spam_count','20180408')
+
+    print redisconn.hgetall(prefix+'squirrel_naa_test'+'_naa_20180516')
+    print redisconn.hgetall(prefix+'squirrel_ac_1'+'_v_20180516')
+    #print redisconn.hlen(prefix+'sql_rule_appid'+'_v_2018040210')
+    #print redisconn.hgetall(prefix+'union'+'_v_20180413')
+
+    #sum_day(prefix+'union'+'_v_','20180412','adslotid=20000047')
+    #print redisconn.hgetall(prefix+'adslotid_test'+'_v_20180413')
+    #print redisconn.hgetall(prefix+'adslotid_test'+'_av_20180413')
+
 
 
 

@@ -39,20 +39,19 @@ if __name__ == '__main__':
     redisconn =  redis_cluster()
     #redisconn.hgetall("bi_consume_amount_")
     #date = sys.argv[1]
-    print redisconn.hgetall('bi_consume_amount_2018040419')
-    # c_id_dict =  redisconn.hgetall('bi_consume_amount_2018040318')
+    #print redisconn.hgetall('bi_consume_amount_2018040419')
+    # c_id_dict =  redisconn.hgetall('bi_imp_amount_2018041216')
     # for key in c_id_dict:
-    #     if string.find(key,'adgid=40109659') ==-1:
+    #     if string.find(key,'aid=10017654') !=-1:
     #         print key
 
-    # hours=['00','01','02','03','04','05','06','07','08','09','10','11','12','13']
+    # hours=['00','01','02','03','04','05','06','07','08','09','10','11','12','13','14','15','16','17']
     # for hour in hours:
-    #     print sum_day_key('bi_consume_amount_20180313'+hour,'aid=10013301')
-
+    #     print sum_day_key('bi_consume_amount_20180412'+hour,'')
 
 
     #print redisconn.hgetall('bi_consume_amount_2018031312')
-    #print redisconn.hgetall('bi_imp_amount_2018012208')
+    print redisconn.hgetall('bi_imp_amount_2018042619')
     #print redisconn.hgetall('bi_c_id_2018012208')
 
    # print redisconn.lrange('bi_consume_stream',0,-1)
