@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="361d08bc-5a11-4ef8-a75c-9e51ae026ed4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/com/test/url_get.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/com/test/selenium.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/common/custom_storm.py" afterPath="$PROJECT_DIR$/com/common/custom_storm.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/com/common/redis_cluster.py" afterPath="$PROJECT_DIR$/com/common/redis_cluster.py" />
@@ -20,19 +22,23 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/spider$custom_storm.coverage" NAME="custom_storm Coverage Results" MODIFIED="1526443208702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
+    <SUITE FILE_PATH="coverage/spider$custom_storm.coverage" NAME="custom_storm Coverage Results" MODIFIED="1530000446704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
     <SUITE FILE_PATH="coverage/spider$monitor.coverage" NAME="monitor Coverage Results" MODIFIED="1504274397413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
-    <SUITE FILE_PATH="coverage/spider$Unittests_in_PythonOrgSearch.coverage" NAME="Unittests in PythonOrgSearch Coverage Results" MODIFIED="1512724214544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
-    <SUITE FILE_PATH="coverage/spider$redis_cluster.coverage" NAME="redis_cluster Coverage Results" MODIFIED="1524742687270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
+    <SUITE FILE_PATH="coverage/spider$Unittests_in_PythonOrgSearch.coverage" NAME="Unittests in PythonOrgSearch Coverage Results" MODIFIED="1528602260996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
+    <SUITE FILE_PATH="coverage/spider$Unittest_PythonOrgSearch_test_search_in_python_org__1_.coverage" NAME="Unittest PythonOrgSearch.test_search_in_python_org (1) Coverage Results" MODIFIED="1528603540569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
+    <SUITE FILE_PATH="coverage/spider$redis_cluster.coverage" NAME="redis_cluster Coverage Results" MODIFIED="1528442114490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
     <SUITE FILE_PATH="coverage/spider$xlscode.coverage" NAME="xlscode Coverage Results" MODIFIED="1514951804459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
     <SUITE FILE_PATH="coverage/spider$hour_real_add.coverage" NAME="hour_real_add Coverage Results" MODIFIED="1503641175222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
     <SUITE FILE_PATH="coverage/spider$Unittests_in_selenium.coverage" NAME="Unittests in selenium Coverage Results" MODIFIED="1512724227222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
+    <SUITE FILE_PATH="coverage/spider$Unittests_in_my_selenium.coverage" NAME="Unittests in my_selenium Coverage Results" MODIFIED="1528600319128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
     <SUITE FILE_PATH="coverage/spider$diff_redis.coverage" NAME="diff_redis Coverage Results" MODIFIED="1501662987578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
     <SUITE FILE_PATH="coverage/spider$redispython.coverage" NAME="redispython Coverage Results" MODIFIED="1513917773933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
-    <SUITE FILE_PATH="coverage/spider$Unittest_PythonOrgSearch_test_search_in_python_org.coverage" NAME="Unittest PythonOrgSearch.test_search_in_python_org Coverage Results" MODIFIED="1512724090064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
+    <SUITE FILE_PATH="coverage/spider$url_get.coverage" NAME="url_get Coverage Results" MODIFIED="1528605624472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
+    <SUITE FILE_PATH="coverage/spider$Unittest_PythonOrgSearch_test_search_in_python_org.coverage" NAME="Unittest PythonOrgSearch.test_search_in_python_org Coverage Results" MODIFIED="1528600229535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
     <SUITE FILE_PATH="coverage/spider$checkCount.coverage" NAME="checkCount Coverage Results" MODIFIED="1511317371977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
     <SUITE FILE_PATH="coverage/spider$redis_test.coverage" NAME="redis_test Coverage Results" MODIFIED="1525265910648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
-    <SUITE FILE_PATH="coverage/spider$storm_monitor.coverage" NAME="storm_monitor Coverage Results" MODIFIED="1526440645797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
+    <SUITE FILE_PATH="coverage/spider$storm_monitor.coverage" NAME="storm_monitor Coverage Results" MODIFIED="1528440993125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
+    <SUITE FILE_PATH="coverage/spider$mm.coverage" NAME="mm Coverage Results" MODIFIED="1528600774362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/test" />
     <SUITE FILE_PATH="coverage/spider$export.coverage" NAME="export Coverage Results" MODIFIED="1519991397810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/com/common" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -56,121 +62,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="export.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/export.py">
+      <file leaf-file-name="redispython.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/common/redispython.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="138" column="22" selection-start-line="135" selection-start-column="5" selection-end-line="138" selection-end-column="22" />
-              <folding>
-                <element signature="e#32#75#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="storm_monitor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/storm_monitor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
-              <folding>
-                <element signature="e#32#75#0" expanded="true" />
-                <marker date="1526440645000" expanded="true" signature="150:199" placeholder="..." />
-                <marker date="1526440645000" expanded="true" signature="3375:3630" placeholder="select accou... xpstrackingcharge" />
-                <marker date="1526440645000" expanded="true" signature="3375:3640" placeholder="select ett,a... " />
-                <marker date="1526440645000" expanded="true" signature="3695:3854" placeholder="select sum(c... xpstrackingcharge" />
-                <marker date="1526440645000" expanded="true" signature="3695:3863" placeholder="select accou... xpstrackingcharge" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom_storm.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com/common/custom_storm.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="4.763098">
-              <caret line="127" column="65" selection-start-line="127" selection-start-column="65" selection-end-line="127" selection-end-column="65" />
-              <folding>
-                <marker date="1526454263000" expanded="true" signature="3141:3254" placeholder="select count... xpssearch" />
-                <marker date="1526454263000" expanded="true" signature="3141:3256" placeholder="select count... xpssearch" />
-                <marker date="1526454263000" expanded="true" signature="3384:3711" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3384:3721" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3384:3726" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3384:3738" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3384:3741" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3384:3744" placeholder="select ett,a... " />
-                <marker date="1526454263000" expanded="true" signature="3864:3984" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1526454263000" expanded="true" signature="3864:3987" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1526454263000" expanded="true" signature="3864:4087" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1526454263000" expanded="true" signature="3864:4089" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1526454263000" expanded="true" signature="4149:4255" placeholder="select sum(u... xpstrackingcharge" />
-                <marker date="1526454263000" expanded="true" signature="4149:4259" placeholder="select sum(u... xpstrackingcharge" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spark_py.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/spark/spark_py.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
-              <folding>
-                <element signature="e#17#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis_cluster.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/redis_cluster.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-              <folding>
-                <element signature="e#32#75#0" expanded="true" />
-                <marker date="1524742687000" expanded="true" signature="2097:2275" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="redis_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/redis_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="e#32#75#0" expanded="true" />
-                <marker date="1525265910000" expanded="true" signature="1121:1246" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1525265910000" expanded="true" signature="1311:1435" placeholder="select appid... xpstrackingcharge" />
-                <marker date="1525265910000" expanded="true" signature="1496:1564" placeholder="select sum(c... xpstrackingcharge" />
-                <marker date="1525265910000" expanded="true" signature="1496:1591" placeholder="select sum(c... xpstrackingcharge" />
-                <marker date="1525265910000" expanded="true" signature="1656:1778" placeholder="select sum(c... xpstrackingcharge" />
-                <marker date="1525265910000" expanded="true" signature="1656:1780" placeholder="select sum(c... xpstrackingcharge" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/redis/client.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1728" column="67" selection-start-line="1728" selection-start-column="51" selection-end-line="1728" selection-end-column="67" />
+              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="diff_redis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/diff_redis.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
-              <folding>
-                <element signature="e#32#46#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -185,11 +82,119 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redispython.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/common/redispython.py">
+      <file leaf-file-name="selenium_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/test/selenium_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="storm_monitor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/common/storm_monitor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="106" column="32" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="32" />
+              <folding>
+                <marker date="1528440587000" expanded="true" signature="150:199" placeholder="..." />
+                <marker date="1528440587000" expanded="true" signature="3443:3698" placeholder="select accou... xpstrackingcharge" />
+                <marker date="1528440587000" expanded="true" signature="3443:3708" placeholder="select ett,a... " />
+                <marker date="1528440587000" expanded="true" signature="3763:3922" placeholder="select sum(c... xpstrackingcharge" />
+                <marker date="1528440587000" expanded="true" signature="3763:3931" placeholder="select accou... xpstrackingcharge" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom_storm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com/common/custom_storm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4601227">
+              <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+              <folding>
+                <marker date="1530000446000" expanded="true" signature="3141:3254" placeholder="select count... xpssearch" />
+                <marker date="1530000446000" expanded="true" signature="3141:3256" placeholder="select count... xpssearch" />
+                <marker date="1530000446000" expanded="true" signature="3384:3717" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3727" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3732" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3744" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3747" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3750" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3384:3756" placeholder="select ett,a... " />
+                <marker date="1530000446000" expanded="true" signature="3876:3996" placeholder="select appid... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="3876:3999" placeholder="select appid... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="3876:4099" placeholder="select appid... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="3876:4101" placeholder="select appid... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="4161:4267" placeholder="select sum(u... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="4161:4271" placeholder="select sum(u... xpstrackingcharge" />
+                <marker date="1530000446000" expanded="true" signature="4911:5139" placeholder="select sum(1... xpstrackingcharge" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkCount.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/common/checkCount.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xlscode.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/common/xlscode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hour_real_add.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/test/hour_real_add.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diff_redis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/common/diff_redis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
+              <folding>
+                <element signature="e#32#46#0" expanded="true" />
+                <marker date="1501672223000" expanded="true" signature="1069:1127" placeholder="select from_... " />
+                <marker date="1501672223000" expanded="true" signature="1221:1612" placeholder="INSERT INTO t_dm_xps_advertiser_consume_hour_crid_real_time_history... " />
+                <marker date="1501672223000" expanded="true" signature="1415:1598" placeholder="select `id`,... t_dm_xps_advertiser_consume_hour_crid" />
+                <marker date="1501672223000" expanded="true" signature="1924:2331" placeholder="select a.`id... t_dm_xps_advertiser_consume_hour_crid" />
+                <marker date="1501672223000" expanded="true" signature="2712:2915" placeholder="select `id`,... t_dm_xps_advertiser_consume_hour_crid_real_time" />
+                <marker date="1501672223000" expanded="true" signature="3172:3411" placeholder="insert into `t_dm_xps_advertiser_consume_hour_crid_real_time`... " />
+                <marker date="1501672223000" expanded="true" signature="3572:3769" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
+                <marker date="1501672223000" expanded="true" signature="4206:4413" placeholder="update t_dm_... " />
+                <marker date="1501672223000" expanded="true" signature="4567:4764" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
+                <marker date="1501672223000" expanded="true" signature="5005:5212" placeholder="update t_dm_... " />
+                <marker date="1501672223000" expanded="true" signature="5541:5965" placeholder="select a.`id... t_dm_xps_advertiser_consume_hour_crid_real_time" />
+                <marker date="1501672223000" expanded="true" signature="6291:6439" placeholder="delete from " />
+                <marker date="1501672223000" expanded="true" signature="6528:6725" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="monitor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/test/monitor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="116" column="38" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -227,16 +232,20 @@
         <option value="$PROJECT_DIR$/com/test/monitor.py" />
         <option value="$PROJECT_DIR$/com/common/checkCount.py" />
         <option value="$PROJECT_DIR$/com/common/xlscode.py" />
-        <option value="$PROJECT_DIR$/com/test/selenium.py" />
         <option value="$PROJECT_DIR$/com/common/redispython.py" />
         <option value="$PROJECT_DIR$/com/perl/proess.pl" />
         <option value="$PROJECT_DIR$/com/common/spark_test.py" />
         <option value="$PROJECT_DIR$/mmm.txt" />
         <option value="$PROJECT_DIR$/com/common/export.py" />
         <option value="$PROJECT_DIR$/com/spark/spark_py.py" />
-        <option value="$PROJECT_DIR$/com/common/redis_cluster.py" />
         <option value="$PROJECT_DIR$/com/common/redis_test.py" />
         <option value="$PROJECT_DIR$/com/common/storm_monitor.py" />
+        <option value="$PROJECT_DIR$/com/common/redis_cluster.py" />
+        <option value="$PROJECT_DIR$/com/test/selenium.py" />
+        <option value="$PROJECT_DIR$/com/test/my_selenium.py" />
+        <option value="$PROJECT_DIR$/com/test/mm.py" />
+        <option value="$PROJECT_DIR$/com/test/selenium_test.py" />
+        <option value="$PROJECT_DIR$/com/test/url_get.py" />
         <option value="$PROJECT_DIR$/com/common/custom_storm.py" />
       </list>
     </option>
@@ -328,7 +337,61 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="spark" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hive" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,39 +413,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spider" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calculate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../magic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="jdk.selected.PYTHON_MODULE" value="Python 2.7.13 (/Applications/anaconda2/bin/python)" />
     <property name="FullScreen" value="true" />
   </component>
@@ -419,56 +464,84 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.custom_storm">
-    <configuration default="false" name="storm_monitor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="mm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/common/storm_monitor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/test/mm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="export" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittests in PythonOrgSearch" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/test/selenium_test.py" />
+      <option name="CLASS_NAME" value="PythonOrgSearch" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest PythonOrgSearch.test_search_in_python_org (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="spider" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/test/selenium_test.py" />
+      <option name="CLASS_NAME" value="PythonOrgSearch" />
+      <option name="METHOD_NAME" value="test_search_in_python_org" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="url_get" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/Applications/anaconda2/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/common" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/test" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/common/export.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="redis_cluster" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/Applications/anaconda2/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/common" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spider" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/common/redis_cluster.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/test/url_get.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -487,24 +560,6 @@
       <module name="spider" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/common/custom_storm.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="redis_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/com/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="spider" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/com/common/redis_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -1141,19 +1196,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.storm_monitor" />
-      <item index="1" class="java.lang.String" itemvalue="Python.export" />
-      <item index="2" class="java.lang.String" itemvalue="Python.redis_cluster" />
-      <item index="3" class="java.lang.String" itemvalue="Python.custom_storm" />
-      <item index="4" class="java.lang.String" itemvalue="Python.redis_test" />
+      <item index="0" class="java.lang.String" itemvalue="Python.mm" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in PythonOrgSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest PythonOrgSearch.test_search_in_python_org (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.url_get" />
+      <item index="4" class="java.lang.String" itemvalue="Python.custom_storm" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.custom_storm" />
-        <item index="1" class="java.lang.String" itemvalue="Python.storm_monitor" />
-        <item index="2" class="java.lang.String" itemvalue="Python.redis_test" />
-        <item index="3" class="java.lang.String" itemvalue="Python.redis_cluster" />
-        <item index="4" class="java.lang.String" itemvalue="Python.export" />
+        <item index="1" class="java.lang.String" itemvalue="Python.url_get" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest PythonOrgSearch.test_search_in_python_org (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in PythonOrgSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.mm" />
       </list>
     </recent_temporary>
   </component>
@@ -1276,33 +1331,56 @@
       <workItem from="1525265364814" duration="1847000" />
       <workItem from="1525360649562" duration="1393000" />
       <workItem from="1526371270128" duration="1194000" />
-      <workItem from="1526437257112" duration="3641000" />
+      <workItem from="1526437257112" duration="6678000" />
+      <workItem from="1527591495240" duration="1133000" />
+      <workItem from="1527600382767" duration="2047000" />
+      <workItem from="1528096565299" duration="179000" />
+      <workItem from="1528440077675" duration="1670000" />
+      <workItem from="1528597576310" duration="5590000" />
+      <workItem from="1528685246376" duration="447000" />
+      <workItem from="1529978975296" duration="880000" />
+      <workItem from="1530000191985" duration="801000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org - 2017.08.24 at 10h 35m 48s.xml">
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org - 2018.06.10 at 11h 08m 51s.xml">
       <configuration name="Unittest PythonOrgSearch.test_search_in_python_org" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org - 2017.12.08 at 17h 08m 10s.xml">
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org - 2018.06.10 at 11h 10m 29s.xml">
       <configuration name="Unittest PythonOrgSearch.test_search_in_python_org" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PythonOrgSearch - 2017.12.08 at 17h 10m 14s.xml">
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org_(1) - 2018.06.10 at 11h 24m 04s.xml">
+      <configuration name="Unittest PythonOrgSearch.test_search_in_python_org (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org_(1) - 2018.06.10 at 11h 36m 54s.xml">
+      <configuration name="Unittest PythonOrgSearch.test_search_in_python_org (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org_(1) - 2018.06.10 at 12h 02m 14s.xml">
+      <configuration name="Unittest PythonOrgSearch.test_search_in_python_org (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org_(1) - 2018.06.10 at 12h 03m 55s.xml">
+      <configuration name="Unittest PythonOrgSearch.test_search_in_python_org (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_PythonOrgSearch_test_search_in_python_org_(1) - 2018.06.10 at 12h 05m 57s.xml">
+      <configuration name="Unittest PythonOrgSearch.test_search_in_python_org (1)" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PythonOrgSearch - 2018.06.10 at 11h 20m 03s.xml">
       <configuration name="Unittests in PythonOrgSearch" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium - 2017.12.08 at 17h 09m 19s.xml">
-      <configuration name="Unittests in selenium" configurationId="tests" />
+    <history-entry file="Unittests_in_PythonOrgSearch - 2018.06.10 at 11h 44m 25s.xml">
+      <configuration name="Unittests in PythonOrgSearch" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_selenium - 2017.12.08 at 17h 10m 27s.xml">
-      <configuration name="Unittests in selenium" configurationId="tests" />
+    <history-entry file="Unittests_in_my_selenium - 2018.06.10 at 11h 11m 59s.xml">
+      <configuration name="Unittests in my_selenium" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="299647000" />
+    <option name="totallyTimeSpent" value="315431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1310,10 +1388,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31862068" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5130674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21405493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21890146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1367,34 +1445,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com/common/diff_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="105" column="22" selection-start-line="105" selection-start-column="22" selection-end-line="105" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/calculate/job/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/calculate/off_line.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/hive/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/hive/hive_format.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1500,28 +1550,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/utrunner.py" />
-    <entry file="file://$PROJECT_DIR$/com/test/monitor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="116" column="38" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/test/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/test/selenium.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com/calculate/stream_real_time.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1533,13 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/test/hour_real_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1571,20 +1592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/checkCount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/cube.qy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/IntelliJIdea15/python_stubs/207140745/__builtin__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1592,31 +1599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/xlscode.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/rediscluster/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/calculate/off_line.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/calculate/real_time.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1641,6 +1627,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/com/spark/spark_py.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/redis/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1728" column="67" selection-start-line="1728" selection-start-column="51" selection-end-line="1728" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/calculate/off_line.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/calculate/real_time.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/calculate/stream_off_line.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1648,33 +1663,83 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="506" column="8" selection-start-line="506" selection-start-column="8" selection-end-line="506" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/selenium/webdriver/common/by.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/selenium/webdriver/support/wait.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/test/url_get.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/common/redis_cluster.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <marker date="1528441998000" expanded="true" signature="2155:2333" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/common/cube.qy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <marker date="1513650993000" expanded="true" signature="937:1274" placeholder="SELECT sum(a... ALBUM_NAME" />
+            <marker date="1513650993000" expanded="true" signature="988:1193" placeholder="SELECT ALBUM... KYLIN_VIEW_TVAD_SUMMARY_ALBUM_WT" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/common/export.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="138" column="22" selection-start-line="135" selection-start-column="5" selection-end-line="138" selection-end-column="22" />
-          <folding>
-            <element signature="e#32#75#0" expanded="true" />
-          </folding>
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/spark/spark_py.py">
+    <entry file="file://$PROJECT_DIR$/com/common/redis_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#17#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/diff_redis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="e#32#46#0" expanded="true" />
-          </folding>
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1694,75 +1759,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Applications/anaconda2/lib/python2.7/site-packages/redis/client.py">
+    <entry file="file://$PROJECT_DIR$/com/common/checkCount.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1728" column="67" selection-start-line="1728" selection-start-column="51" selection-end-line="1728" selection-end-column="67" />
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/redis_test.py">
+    <entry file="file://$PROJECT_DIR$/com/common/xlscode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/test/hour_real_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/common/diff_redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
           <folding>
-            <element signature="e#32#75#0" expanded="true" />
-            <marker date="1525265910000" expanded="true" signature="1121:1246" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1525265910000" expanded="true" signature="1311:1435" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1525265910000" expanded="true" signature="1496:1564" placeholder="select sum(c... xpstrackingcharge" />
-            <marker date="1525265910000" expanded="true" signature="1496:1591" placeholder="select sum(c... xpstrackingcharge" />
-            <marker date="1525265910000" expanded="true" signature="1656:1778" placeholder="select sum(c... xpstrackingcharge" />
-            <marker date="1525265910000" expanded="true" signature="1656:1780" placeholder="select sum(c... xpstrackingcharge" />
+            <element signature="e#32#46#0" expanded="true" />
+            <marker date="1501672223000" expanded="true" signature="1069:1127" placeholder="select from_... " />
+            <marker date="1501672223000" expanded="true" signature="1221:1612" placeholder="INSERT INTO t_dm_xps_advertiser_consume_hour_crid_real_time_history... " />
+            <marker date="1501672223000" expanded="true" signature="1415:1598" placeholder="select `id`,... t_dm_xps_advertiser_consume_hour_crid" />
+            <marker date="1501672223000" expanded="true" signature="1924:2331" placeholder="select a.`id... t_dm_xps_advertiser_consume_hour_crid" />
+            <marker date="1501672223000" expanded="true" signature="2712:2915" placeholder="select `id`,... t_dm_xps_advertiser_consume_hour_crid_real_time" />
+            <marker date="1501672223000" expanded="true" signature="3172:3411" placeholder="insert into `t_dm_xps_advertiser_consume_hour_crid_real_time`... " />
+            <marker date="1501672223000" expanded="true" signature="3572:3769" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
+            <marker date="1501672223000" expanded="true" signature="4206:4413" placeholder="update t_dm_... " />
+            <marker date="1501672223000" expanded="true" signature="4567:4764" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
+            <marker date="1501672223000" expanded="true" signature="5005:5212" placeholder="update t_dm_... " />
+            <marker date="1501672223000" expanded="true" signature="5541:5965" placeholder="select a.`id... t_dm_xps_advertiser_consume_hour_crid_real_time" />
+            <marker date="1501672223000" expanded="true" signature="6291:6439" placeholder="delete from " />
+            <marker date="1501672223000" expanded="true" signature="6528:6725" placeholder="INSERT INTO t_dm_xps_advertiser_consume_stream_real_time" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/common/redis_cluster.py">
+    <entry file="file://$PROJECT_DIR$/com/test/monitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
-          <folding>
-            <element signature="e#32#75#0" expanded="true" />
-            <marker date="1524742687000" expanded="true" signature="2097:2275" placeholder="..." />
-          </folding>
+          <caret line="116" column="38" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/test/selenium_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/common/storm_monitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="89" column="31" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+          <caret line="106" column="32" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="32" />
           <folding>
-            <element signature="e#32#75#0" expanded="true" />
-            <marker date="1526440645000" expanded="true" signature="150:199" placeholder="..." />
-            <marker date="1526440645000" expanded="true" signature="3375:3630" placeholder="select accou... xpstrackingcharge" />
-            <marker date="1526440645000" expanded="true" signature="3375:3640" placeholder="select ett,a... " />
-            <marker date="1526440645000" expanded="true" signature="3695:3854" placeholder="select sum(c... xpstrackingcharge" />
-            <marker date="1526440645000" expanded="true" signature="3695:3863" placeholder="select accou... xpstrackingcharge" />
+            <marker date="1528440587000" expanded="true" signature="150:199" placeholder="..." />
+            <marker date="1528440587000" expanded="true" signature="3443:3698" placeholder="select accou... xpstrackingcharge" />
+            <marker date="1528440587000" expanded="true" signature="3443:3708" placeholder="select ett,a... " />
+            <marker date="1528440587000" expanded="true" signature="3763:3922" placeholder="select sum(c... xpstrackingcharge" />
+            <marker date="1528440587000" expanded="true" signature="3763:3931" placeholder="select accou... xpstrackingcharge" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/common/custom_storm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.763098">
-          <caret line="127" column="65" selection-start-line="127" selection-start-column="65" selection-end-line="127" selection-end-column="65" />
+        <state vertical-scroll-proportion="-1.4601227">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding>
-            <marker date="1526454263000" expanded="true" signature="3141:3254" placeholder="select count... xpssearch" />
-            <marker date="1526454263000" expanded="true" signature="3141:3256" placeholder="select count... xpssearch" />
-            <marker date="1526454263000" expanded="true" signature="3384:3711" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3384:3721" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3384:3726" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3384:3738" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3384:3741" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3384:3744" placeholder="select ett,a... " />
-            <marker date="1526454263000" expanded="true" signature="3864:3984" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1526454263000" expanded="true" signature="3864:3987" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1526454263000" expanded="true" signature="3864:4087" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1526454263000" expanded="true" signature="3864:4089" placeholder="select appid... xpstrackingcharge" />
-            <marker date="1526454263000" expanded="true" signature="4149:4255" placeholder="select sum(u... xpstrackingcharge" />
-            <marker date="1526454263000" expanded="true" signature="4149:4259" placeholder="select sum(u... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="3141:3254" placeholder="select count... xpssearch" />
+            <marker date="1530000446000" expanded="true" signature="3141:3256" placeholder="select count... xpssearch" />
+            <marker date="1530000446000" expanded="true" signature="3384:3717" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3727" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3732" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3744" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3747" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3750" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3384:3756" placeholder="select ett,a... " />
+            <marker date="1530000446000" expanded="true" signature="3876:3996" placeholder="select appid... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="3876:3999" placeholder="select appid... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="3876:4099" placeholder="select appid... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="3876:4101" placeholder="select appid... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="4161:4267" placeholder="select sum(u... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="4161:4271" placeholder="select sum(u... xpstrackingcharge" />
+            <marker date="1530000446000" expanded="true" signature="4911:5139" placeholder="select sum(1... xpstrackingcharge" />
           </folding>
         </state>
       </provider>
@@ -1825,6 +1919,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

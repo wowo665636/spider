@@ -89,7 +89,7 @@ if __name__ == '__main__':
     date='20180322'
     redisconn = redis_cluster()
     #print redisconn.hgetall('bi_export_map')
-    print redisconn.hgetall('bi_trend_naa_2018051611')
+    print redisconn.hget("bi_search_na_20180608","appid=union&adslotid=20000055&developerid=10100036&unionappid=20000030")
     # print redisconn.hgetall('bi_trend_naa_2018040210')
     # print redisconn.get("sql_rule_trend")
     # print redisconn.hgetall('t_dwd_alliance_spam_count')

@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 
     #print redisconn.hgetall('bi_consume_amount_2018031312')
-    print redisconn.hgetall('bi_imp_amount_2018042619')
+    print redisconn.hget('bi_imp_amount_2018060815','aid=10019417-campid=20042019-adgid=40161422-crid=100446852')
     #print redisconn.hgetall('bi_c_id_2018012208')
 
    # print redisconn.lrange('bi_consume_stream',0,-1)

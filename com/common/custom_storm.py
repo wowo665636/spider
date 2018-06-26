@@ -110,7 +110,7 @@ if __name__ == '__main__':
     #redisconn.set('sql_rule_search','select count(1) from xpssearch where appid in ("union","wapunion") group by appid,adslotid,developerid,unionappid')
     #sum_key('bi_search_na_2018040316')
     # 宽表过滤规则 bi_custom_rule----------
-    #redisconn.hset('bi_custom_rule','sql_fact','select ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,os_rename,appv,vplat,tvpid,vc,ac from xpstrackingcharge where ett in ("na","v","av","click","naa")   group by ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,developerid,unionappid,os_rename,appv,vplat,tvpid,vc,ac')
+    #redisconn.hset('bi_custom_rule','sql_fact','select ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,os_rename,appv,vplat,tvpid,vc,ac,adgid from xpstrackingcharge where ett in ("na","v","av","click","naa")   group by ett,accounttype,appid,charge,bidtype,appdelaytrack,adslotid,reposition,lc,rr,isspam,timestamp,developerid,unionappid,os_rename,appv,vplat,tvpid,vc,ac,adgid')
     #print redisconn.hget('bi_custom_rule','sql_fact')
 
     # 分维度计算
@@ -124,8 +124,10 @@ if __name__ == '__main__':
     # print redisconn.hlen('bi_custom_count_uv_'+'idfa_'+'20180408')
     #print redisconn.hget('t_dwd_alliance_spam_count','20180408')
 
-    print redisconn.hgetall(prefix+'squirrel_naa_test'+'_naa_20180516')
-    print redisconn.hgetall(prefix+'squirrel_ac_1'+'_v_20180516')
+    #print redisconn.hgetall(prefix+'union_cross_table'+'_v_20180529')
+    print redisconn.hgetall(prefix+'union_cross_table'+'_consume_20180625')
+    #print redisconn.hlen(prefix+'union_cross_table'+'_consume_20180530')
+   # print redisconn.hset('bi_dim_rule','squirrel_test_b','select sum(1) from xpstrackingcharge where appid ="squirrel" and ac in ("1","") and adslotid in ("1000001","1000002","1000003") and ett in ("na","v","av","click","naa") and rr in ("1","2","3","4","5","6","") group by adslotid,rr')
     #print redisconn.hlen(prefix+'sql_rule_appid'+'_v_2018040210')
     #print redisconn.hgetall(prefix+'union'+'_v_20180413')
 
